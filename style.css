@@ -1,0 +1,94 @@
+
+
+.rows {
+    display: flex;
+    flex-direction: row;
+}
+.rows button {
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 25px;
+    margin: 5px;
+    border: none;
+}
+
+#display {
+    height: 75px;
+    text-align: left;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    border-radius: 25px;
+    padding: 10px;
+    color: black;
+}
+
+html, body {
+    height: 100%; /* Ensure the body takes up the full viewport height */
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;     /* Centers vertically */
+    background: pink;
+}
+
+.calculatorbody {
+    display: flex;
+    flex-direction: column; 
+}
+
+.calcontainer {
+    border: solid 1px black;
+    padding: 15px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+    background: white;
+}
+
+#total {
+    width: 150px;
+    border-radius: 25px;
+    font-size: 50px ;
+}
+
+.operators {
+    background-color: #35ac0a;
+}
+
+.numbers {
+    background-color: #ea78a0;
+}
+
+#firstpic {
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+#secpic {
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top: 25%;
+    right: 10%;
+}
+
+#thirdpic {
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    top: 40%;
+    left: 25%;
+}
+
+#fourthpic {
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    right: 20%;
+}
